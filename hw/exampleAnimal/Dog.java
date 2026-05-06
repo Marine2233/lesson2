@@ -1,6 +1,6 @@
 package exampleAnimal;
 
-public class Dod extends Animals{
+public class Dog extends Animals{
     @Override
     public String makeVoice() {
         return "Dog voice.";

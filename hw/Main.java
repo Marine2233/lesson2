@@ -1,3 +1,9 @@
+import exampleAnimal.Cat;
+import exampleAnimal.Dog;
+import math.Calculator;
+import math.Operations;
+import userWork.User;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -19,18 +25,18 @@ public class Main {
         for (int i = 0; i < 5; i++) {
             new User("name" + i);
         }
-        System.out.println(" строка 31 \n задание - тел. книга. \n"+User.getCount());
+        System.out.println(" строка 28 \n задание - тел. книга. \n"+ User.getCount());
 
 
         Dog rich = new Dog();
         Cat perec = new Cat();
-        System.out.println("стр. 35 - animal - package exampleAnimal\n "+perec.makeSound() + "\n" + rich.makeSound());
+        System.out.println("стр. 33 - animal - package exampleAnimal\n "+perec.makeVoice() + "\n" + rich.makeVoice());
 
-        System.out.println("стр. 37 - class Calculator");
+        System.out.println("стр. 35 - class math.Calculator");
         System.out.println(Calculator.max(1,2));
         System.out.println(Calculator.multiply(1,1,1));
         System.out.println(Calculator.sum(2,5,4));
-        System.out.println("стр.41 ");
-        System.out.println(HomeWork.findLongestWord( list));
+        System.out.println("стр.39 ");
+        System.out.println(Operations.findLongestWord( list));
     }
 }
