@@ -1,12 +1,14 @@
 package userWork;
 
 public class User {
+
+    private static int count;
+    private String name;
+
     public User(String name) {
         this.name = name;
         count++;
     }
-
-    private String name;
 
     public String getName() {
         return name;
@@ -16,5 +18,5 @@ public class User {
         return count;
     }
 
-    private static int count;
+
 }

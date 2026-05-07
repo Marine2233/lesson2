@@ -7,7 +7,10 @@ import userWork.User;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Main {
+public class
+
+
+Main {
     public static void main(String[] args) {
 
 
@@ -36,7 +39,7 @@ public class Main {
         System.out.println(Calculator.max(1,2));
         System.out.println(Calculator.multiply(1,1,1));
         System.out.println(Calculator.sum(2,5,4));
-        System.out.println("стр.39 ");
+        System.out.println("стр.42 ");
         System.out.println(Operations.findLongestWord( list));
     }
 }

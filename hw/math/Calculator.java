@@ -19,6 +19,7 @@ public class Calculator {
     public static int max(int...num){
         int max = 0;
         for (int i = 0; i < num.length; i++) {
+            max = num[0];
             if (num[i] > max){
                 max = num[i];
             }
